@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.javaprojectfxml.MaxRevenueShowConroller"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <TableView fx:id="table" layoutY="4.0" prefHeight="400.0" prefWidth="966.0">
+        <columns>
+            <TableColumn fx:id="Moviename" editable="false" prefWidth="100.0" sortable="false" text="Movie Name" />
+            <TableColumn fx:id="releaseyear" prefWidth="100.0" text="Release Year" />
+            <TableColumn fx:id="genre1" minWidth="100.0" prefWidth="75.0" text="Genre1" />
+            <TableColumn fx:id="genre2" prefWidth="100.0" text="Genre2" />
+            <TableColumn fx:id="genre3" prefWidth="100.0" text="Genre3" />
+            <TableColumn fx:id="runningtime" prefWidth="100.0" text="Running Time" />
+            <TableColumn fx:id="productioncompany" prefWidth="100.0" text="Production Company" />
+            <TableColumn fx:id="budget" prefWidth="100.0" text="Budget" />
+            <TableColumn fx:id="revenue" prefWidth="100.0" text="Revenue" />
+        </columns>
+    </TableView>
+    <Button fx:id="back" layoutX="508.0" layoutY="353.0" mnemonicParsing="false" onAction="#onBackClick" text="Back" />
+
+</AnchorPane>
